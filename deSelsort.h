@@ -2,6 +2,13 @@
 
 using namespace std;
 
+void printArr(int arr[]){
+for(int i = 0; i < 8; i++){
+    cout << arr[i] << " ";
+}
+cout << endl;
+}
+
 void valswap(int &a, int &b){
 int swap = a;
 a = b;
@@ -51,6 +58,7 @@ index++;
 if(index > size-index){
     index = 0;
 }
+printArr(arr);
 }
 }
 }
